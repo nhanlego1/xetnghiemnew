@@ -1,0 +1,90 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: splasher
+ * Date: 8/1/17
+ * Time: 10:27 PM
+ */
+/**
+ * @return array
+ * Implement hook_menu()
+ */
+function healthpress_menu()
+{
+    $items = array();
+
+
+    $items['search/healthpress'] = array(
+        'page callback' => 'healthpress_search',
+        'access callback' => TRUE,
+        'type' => MENU_LOCAL_ACTION,
+    );
+
+    return $items;
+}
+
+/**
+ * @return array
+ * Implement hook_theme
+ */
+
+function healthpress_theme(){
+    $items = array();
+    $items['slider'] = array(
+        'render element' => 'element',
+        'path' => drupal_get_path('module', 'healthpress') . '/themes',
+        'template' => 'slider',
+    );
+    return $items;
+}
+
+/**
+ * @return array
+ * Implement hook_block_info()
+ */
+function healthpress_block_info()
+{
+    $blocks = array();
+    $blocks['slider'] = array('info' => t('Slider'));
+    return $blocks;
+}
+
+/**
+ * Implement hook_block_view
+ * Create views for block info
+ * @param $delta
+ * @return block array
+ */
+function healthpress_block_view($delta = '')
+{
+    switch ($delta) {
+        case 'slider':
+            return array(
+                'subject' => t('slider'),
+                'content' => healthpress_slider(),
+            );
+            break;
+    }
+}
+
+function healthpress_slider(){
+    $query = db_select('node','n');
+    $query->fields('n');
+    $query->condition('type','slider');
+    $query->condition('status',NODE_PUBLISHED);
+    $query->orderBy('created','ASC');
+    $result = $query->execute()->fetchAll();
+    $nodes = array();
+    if($result){
+        foreach($result as $n){
+            $nodes[] = node_load($n->nid);
+        }
+    }
+    return theme('slider',array('nodes'=>$nodes));
+}
+
+function healthpress_search(){
+    if(isset($_GET['keyword'])){
+        drupal_goto('search/google/'.$_GET['keyword']);
+    }
+}

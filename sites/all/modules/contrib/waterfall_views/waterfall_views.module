@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Adds Views plugins for Waterfall
+ *
+ * @author Nhan Le <nhanlego1@gmail.com>
+ */
+
+/**
+ * Implements hook_views_api().
+ */
+function waterfall_views_views_api() {
+  return array(
+    'api' => 3,
+  );
+}

@@ -1,0 +1,26 @@
+name = Health Press Theme
+description = The template for Health Press
+core = 7.x
+engine = phptemplate
+;stylesheets[all][] = style.css
+;stylesheets[all][] = css/responsive.css
+;scripts[] = js/retina.js
+;scripts[] = js/plugins.js
+;scripts[] = js/global.js
+;scripts[] = js/flexslider.js
+;scripts[] = js/flexslider-home.js
+;scripts[] = js/wow.min.js
+regions[sidebar_first]  = First Sidebar
+regions[header]         = Header
+regions[featured]         = featured
+regions[preface_first]  = Preface First
+regions[preface_middle] = Preface Middle
+regions[preface_last]   = Preface Last
+regions[content_top]    = Content Top
+regions[content]        = Content
+regions[help]           = Help
+regions[footer]         = Footer
+regions[footer_first]   = First Bottom
+regions[footer_second]  = Second Bottom
+regions[footer_third]   = Third Bottom
+
