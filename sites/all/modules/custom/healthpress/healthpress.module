@@ -19,10 +19,28 @@ function healthpress_menu()
         'access callback' => TRUE,
         'type' => MENU_LOCAL_ACTION,
     );
+    $items['admin/dashboard'] = array(
+        'title' => 'Admin Dashboard ',
+        'description' => 'Admin management.',
+        'page callback' => 'healthpress_admin_dashboard',
+        'access arguments' => array('administer healthpress'),
+    );
 
     return $items;
 }
 
+/**
+ * Implements hook_permission().
+ */
+function healthpress_permission()
+{
+    return array(
+        'administer healthpress' => array(
+            'title' => t('Administer healthpress'),
+            'restrict access' => TRUE,
+        ),
+    );
+}
 /**
  * @return array
  * Implement hook_theme
@@ -34,6 +52,11 @@ function healthpress_theme(){
         'render element' => 'element',
         'path' => drupal_get_path('module', 'healthpress') . '/themes',
         'template' => 'slider',
+    );
+    $items['dashboard'] = array(
+        'render element' => 'element',
+        'path' => drupal_get_path('module', 'healthpress') . '/themes',
+        'template' => 'admin-dashboard',
     );
     return $items;
 }
@@ -87,4 +110,9 @@ function healthpress_search(){
     if(isset($_GET['keyword'])){
         drupal_goto('search/google/'.$_GET['keyword']);
     }
+}
+
+function healthpress_admin_dashboard(){
+    drupal_add_css(drupal_get_path('module','healthpress').'/css/admin_panel/admin-panel.css');
+    return theme('dashboard');
 }
