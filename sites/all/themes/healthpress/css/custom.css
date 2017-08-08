@@ -456,6 +456,14 @@ footer {
         width: 100%!important;
         height: auto!important;
     }
+    #footer-bottom {
+        width: 100%!important;
+        margin: 0px auto;
+        min-height: 47px;
+        height: auto !important;
+        height: 47px;
+    }
+
 }
 @media only screen and (max-device-width: 1024px) {
     #logo-container {
@@ -486,7 +494,7 @@ footer {
         /*height: auto!important;*/
     /*}*/
     #wrapper .home-left-side {
-        width: 445px!important;
+        width: 445px;
     }
     #wrapper #header .main-nav ul li a {
         padding: 12px 10px!important;
@@ -497,6 +505,13 @@ footer {
         position: absolute;
         right: 0%!important;
         top: 7px;
+    }
+    #footer-bottom {
+        width: 100%!important;
+        margin: 0px auto;
+        min-height: 47px;
+        height: auto !important;
+        height: 47px;
     }
 }
 
