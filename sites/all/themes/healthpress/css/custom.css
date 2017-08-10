@@ -427,6 +427,9 @@ footer {
 .home-left-side {
     margin-bottom: 30px;
 }
+.format_text img{
+    max-width: 100%!important;
+}
 
 @media only screen and (max-device-width: 756px) {
     #logo-container {
