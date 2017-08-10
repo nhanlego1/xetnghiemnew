@@ -126,7 +126,7 @@ input.readmore { height: 33px; line-height: 33px; padding: 0px 15px; }
   	background-image:         linear-gradient(top, rgba(255,255,255,0), rgba(0,0,0,.1));
 
 }
-textarea,
+textarea,input[type="password"],
 input[type="text"] { padding: 8px; font: 13px 'Open Sans', Arial, Helvetica, sans-serif; line-height: 16px; color: #808080; border: none; background-color: #fff; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; box-shadow: 1px 1px 2px #c4c4c4; -moz-box-shadow: 1px 1px 2px #c4c4c4; -webbox-shadow: 1px 1px 2px #c4c4c4; }
 input[type="text"] { height: 16px; }
 .alignleft { float: left; margin: 0px 30px 30px 0px;  }
