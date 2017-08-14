@@ -27,12 +27,21 @@ jQuery(document).ready(function(){
 				depth--;
 			}
 		}
-		optionsList += '<option value="' + $anchor.attr('href') + '">' + indent + ' ' + $anchor.text() + '</option>';
+
+        if($anchor.attr('href')!='undefined'){
+            optionsList += '<option value="' + $anchor.attr('href') + '">' + indent + ' ' + $anchor.text() + '</option>';
+		}else{
+            optionsList += '<option value="#">' + indent + ' ' + $anchor.text() + '</option>';
+		}
+
 	}).end()
 			.after('<select class="responsive-nav">' + optionsList + '</select>');
 
 	$('.responsive-nav').on('change', function() {
-		window.location = $(this).val();
+		if($(this).val() !='undefined'){
+            window.location = $(this).val();
+		}
+
 	});
 	
 
