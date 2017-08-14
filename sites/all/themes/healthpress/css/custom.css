@@ -468,6 +468,9 @@ footer {
     left: 20%;
     text-shadow: 2px 2px #fff;
 }
+#block-block-4 .content{
+    color: #fff!important;
+}
 
 @media only screen and (max-device-width: 756px) {
     #logo-container {
