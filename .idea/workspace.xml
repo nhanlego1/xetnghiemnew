@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2b53e3e7-a18c-4e47-a5cd-2cafab808247" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/admin-dashboard.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/admin-dashboard.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/slider.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/slider.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/healthpress/css/custom.css" afterPath="$PROJECT_DIR$/sites/all/themes/healthpress/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/healthpress/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/healthpress/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/healthpress/templates/page.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/healthpress/templates/page.tpl.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +24,8 @@
       <file leaf-file-name="page.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="90" column="65" lean-forward="false" selection-start-line="90" selection-start-column="65" selection-end-line="90" selection-end-column="65" />
+            <state relative-caret-position="195">
+              <caret line="111" column="20" lean-forward="true" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -43,8 +46,8 @@
       <file leaf-file-name="slider.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/slider.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="130" lean-forward="false" selection-start-line="15" selection-start-column="130" selection-end-line="15" selection-end-column="130" />
+            <state relative-caret-position="315">
+              <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
               </folding>
@@ -62,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6450">
-              <caret line="430" column="30" lean-forward="false" selection-start-line="430" selection-start-column="30" selection-end-line="430" selection-end-column="30" />
+            <state relative-caret-position="505">
+              <caret line="468" column="29" lean-forward="false" selection-start-line="468" selection-start-column="29" selection-end-line="468" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -75,18 +78,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="58" column="22" lean-forward="false" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+            <state relative-caret-position="174">
+              <caret line="305" column="61" lean-forward="false" selection-start-line="305" selection-start-column="61" selection-end-line="305" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin-dashboard.tpl.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin-dashboard.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/admin-dashboard.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="16" column="109" lean-forward="true" selection-start-line="16" selection-start-column="109" selection-end-line="16" selection-end-column="109" />
+              <caret line="16" column="109" lean-forward="false" selection-start-line="16" selection-start-column="109" selection-end-line="16" selection-end-column="109" />
               <folding />
             </state>
           </provider>
@@ -153,13 +156,13 @@
         <option value="$PROJECT_DIR$/sites/all/themes/healthpress/templates/maintenance-page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/healthpress/theme-settings.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/healthpress/healthpress.info" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/slider.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/healthpress/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/healthpress/healthpress.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/healthpress/templates/html.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/healthpress/css/custom.css" />
-        <option value="$PROJECT_DIR$/sites/all/themes/healthpress/style.css" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/admin-dashboard.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/healthpress/templates/page.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/slider.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/healthpress/style.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/healthpress/css/custom.css" />
       </list>
     </option>
   </component>
@@ -193,6 +196,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -477,8 +482,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -569,18 +572,19 @@
       <workItem from="1501600057155" duration="6341000" />
       <workItem from="1502205050786" duration="2016000" />
       <workItem from="1502331775116" duration="1097000" />
-      <workItem from="1502419440461" duration="129000" />
+      <workItem from="1502419440461" duration="628000" />
+      <workItem from="1502719908630" duration="3184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17575000" />
+    <option name="totallyTimeSpent" value="21258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="734" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28756058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2924071" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -945,24 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/slider.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="130" lean-forward="false" selection-start-line="15" selection-start-column="130" selection-end-line="15" selection-end-column="130" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/templates/page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="90" column="65" lean-forward="false" selection-start-line="90" selection-start-column="65" selection-end-line="90" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/views_bulk_operations/js/views_bulk_operations.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -996,26 +982,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/admin-dashboard.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6450">
-          <caret line="430" column="30" lean-forward="false" selection-start-line="430" selection-start-column="30" selection-end-line="430" selection-end-column="30" />
+        <state relative-caret-position="165">
+          <caret line="16" column="109" lean-forward="false" selection-start-line="16" selection-start-column="109" selection-end-line="16" selection-end-column="109" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/slider.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="58" column="22" lean-forward="false" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        <state relative-caret-position="174">
+          <caret line="305" column="61" lean-forward="false" selection-start-line="305" selection-start-column="61" selection-end-line="305" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/admin-dashboard.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="109" lean-forward="true" selection-start-line="16" selection-start-column="109" selection-end-line="16" selection-end-column="109" />
+        <state relative-caret-position="195">
+          <caret line="111" column="20" lean-forward="true" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="468" column="29" lean-forward="false" selection-start-line="468" selection-start-column="29" selection-end-line="468" selection-end-column="29" />
           <folding />
         </state>
       </provider>

@@ -217,7 +217,7 @@ footer .footer-widget a.readmore:hover,
 /*-----------------------------------------------------------------------------------*/
 /*	6. Header Styles
 /*-----------------------------------------------------------------------------------*/
-#logo-container{ width:1016px;margin:0 auto;min-height: 61px; height:auto !important; height: 61px; padding: 32px 0 16px 13px; }
+#logo-container{ width:15%;float:left;min-height: 61px; height:auto !important; height: 61px; padding: 32px 0 0px 13px; }
 #logo-container .logo img { display: block; margin: 0px 0px 4px; }
 #logo-container .logo-heading { margin: 5px 0px 5px; }
 #logo-container .logo-heading a{ color:#4aa0b1;  }
@@ -303,7 +303,7 @@ footer .footer-widget a.readmore:hover,
 /*-----------------------------------------------------------------------------------*/
 /*	7. Slider Styles
 /*-----------------------------------------------------------------------------------*/
-#slider-wrap { width: 1016px; height: 522px; margin: 0px auto 40px; position: relative; overflow: hidden; }
+#slider-wrap { width: 1016px; height: auto; margin: 0px auto 0px; position: relative; overflow: hidden; }
 #slider-wrap .slides { position: relative; height: 445px; overflow: hidden; }
 #slider-wrap .slides li { width: 100%; height: 445px; text-align: center; }
 #slider-wrap .slide-nav { 

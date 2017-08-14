@@ -430,6 +430,44 @@ footer {
 .format_text img{
     max-width: 100%!important;
 }
+#logo-container img{
+    width: 160px;
+}
+.clearfix{
+    clear: both;
+}
+.header-container{
+    margin: 0 auto;
+    width: 1016px;
+}
+.header-region{
+    width: 70%;
+    float: left;
+    padding: 70px 0 0 0;
+}
+.preface-wrapper{
+    width: 1016px;
+    margin: 0 auto;
+}
+.preface-block{
+    width: 98%;
+    background-color: #f15a23;
+    border-radius: 5px;
+    padding: 10px;
+}
+.content h2{
+    padding-bottom: 30px;
+}
+.region-featured{
+    position: relative;
+}
+#block-block-5{
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    left: 20%;
+    text-shadow: 2px 2px #fff;
+}
 
 @media only screen and (max-device-width: 756px) {
     #logo-container {

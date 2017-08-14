@@ -69,13 +69,21 @@
   <header id="header">
 
     <!-- Website Logo Place -->
-    <div id="logo-container">
-        <?php if ($logo): ?>
-          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-            <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/>
-          </a>
+    <div class="header-container">
+      <div id="logo-container">
+          <?php if ($logo): ?>
+            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+              <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/>
+            </a>
+          <?php endif; ?>
+      </div>
+        <?php if ($page['header']): ?>
+          <div class="header-region">
+              <?php print render($page['header']); ?>
+          </div>
         <?php endif; ?>
     </div>
+    <div class="clearfix"></div>
     <div class="menu-bar">
       <nav class="main-nav clearfix">
         <!-- MAIN NAVIGATION -->
@@ -96,20 +104,24 @@
     </div>
   </header><!-- ending of header of the website -->
 
-    <?php if($page['featured']): ?>
-      <?php print render($page['featured']) ?>
-    <?php  endif; ?>
+    <?php if ($page['featured']): ?>
+        <?php print render($page['featured']) ?>
+    <?php endif; ?>
+    <?php if ($page['preface_first']): ?>
+      <div class="preface-wrapper">
+        <div class="preface-block">
+            <?php print render($page['preface_first']); ?>
+        </div>
+      </div>
+    <?php endif; ?>
   <!--start content-->
   <div id="container">
-      <?php if ($page['preface_first'] || $page['preface_middle'] || $page['preface_last'] || $page['header']): ?>
+      <?php if ($page['preface_middle'] || $page['preface_last']): ?>
         <div id="preface-wrap" class="site-preface clr">
           <div id="preface" class="clr">
               <?php if ($page['preface_first'] || $page['preface_middle'] || $page['preface_last']): ?>
                 <div id="preface-block-wrap" class="clr">
-                    <?php if ($page['preface_first']): ?>
-                      <div class="span_1_of_3 col col-1 preface-block ">
-                        <?php print render($page['preface_first']); ?>
-                      </div><?php endif; ?>
+
                     <?php if ($page['preface_middle']): ?>
                       <div class="span_1_of_3 col col-2 preface-block ">
                         <?php print render($page['preface_middle']); ?>
@@ -120,21 +132,17 @@
                       </div><?php endif; ?>
                 </div>
               <?php endif; ?>
-              <?php if ($page['header']): ?>
-                <div class="span_1_of_1 col col-1">
-                    <?php print render($page['header']); ?>
-                </div>
-              <?php endif; ?>
+
           </div>
         </div>
       <?php endif; ?>
     <div class="official clearfix">
       <div class="home-left-side">
-              <?php if ($breadcrumb): ?>
-              <div id="breadcrumbs">
-                  <?php print $breadcrumb; ?>
-              </div>
-              <?php endif; ?>
+          <?php if ($breadcrumb): ?>
+            <div id="breadcrumbs">
+                <?php print $breadcrumb; ?>
+            </div>
+          <?php endif; ?>
           <?php print $messages; ?>
           <?php print render($title_prefix); ?>
           <?php if ($title): ?><h1 class="page-title"><?php print $title; ?></h1><?php endif; ?>

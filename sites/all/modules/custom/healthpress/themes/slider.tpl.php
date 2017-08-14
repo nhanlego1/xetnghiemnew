@@ -19,14 +19,7 @@
         <?php endforeach; ?>
 
         </ul>
-        <ul class="slide-nav slides-5">
-            <?php foreach($nodes as $n): ?>
-            <li>
-                <h4><?php print $n->title ?></h4>
-            </li>
-            <?php endforeach; ?>
-
-        </ul><!-- end of slider nav -->
+        <!-- end of slider nav -->
     </div>
 </div><!-- end of slider-wrap -->
 <?php endif; ?>
