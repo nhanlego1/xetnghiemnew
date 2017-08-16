@@ -111,7 +111,7 @@
               <?php $price = reset($price); ?>
           <div class="price-item">
               <?php if (isset($price->field_title[LANGUAGE_NONE])): ?>
-                <h2><?php print $price->field_title[LANGUAGE_NONE][0]['value'] ?></h2>
+                <h3 class="price-title"><?php print $price->field_title[LANGUAGE_NONE][0]['value'] ?></h3>
               <?php endif; ?>
               <?php if (isset($price->field_description[LANGUAGE_NONE])): ?>
                 <p><?php print $price->field_description[LANGUAGE_NONE][0]['value'] ?></p>
