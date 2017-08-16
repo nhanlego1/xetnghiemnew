@@ -116,3 +116,8 @@ function healthpress_admin_dashboard(){
     drupal_add_css(drupal_get_path('module','healthpress').'/css/admin_panel/admin-panel.css');
     return theme('dashboard');
 }
+function healthpress_form_alter($form, &$form_state, $form_id){
+    if($form_id=='price_node_form'){
+        drupal_add_css(drupal_get_path('module','healthpress').'/css/backend.css');
+    }
+}
