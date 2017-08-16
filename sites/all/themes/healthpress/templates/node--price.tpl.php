@@ -118,7 +118,7 @@
               <?php endif; ?>
               <?php if (isset($price->field_price1[LANGUAGE_NONE])): ?>
                 <table class="adn-price">
-                    <?php $total = coount($price->field_price1[LANGUAGE_NONE]) ?>
+                    <?php $total = count($price->field_price1[LANGUAGE_NONE]) ?>
                     <?php foreach ($price->field_price1[LANGUAGE_NONE] as $key => $price1): ?>
                         <?php if ($key == 0): ?>
                         <thead>
