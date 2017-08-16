@@ -149,6 +149,10 @@
           <?php endforeach; ?>
 
       <?php endif; ?>
+    <?php if(isset($node->field_content_bottom[LANGUAGE_NONE])): ?>
+        <?php print $node->field_content_bottom[LANGUAGE_NONE][0]['value'] ?>
+
+    <?php endif; ?>
   </div>
 
 <?php if (!empty($content['links'])): ?>
