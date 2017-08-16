@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b53e3e7-a18c-4e47-a5cd-2cafab808247" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/healthpress/css/custom.css" afterPath="$PROJECT_DIR$/sites/all/themes/healthpress/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/healthpress/js/custom.js" afterPath="$PROJECT_DIR$/sites/all/themes/healthpress/js/custom.js" />
-    </list>
+    <list default="true" id="2b53e3e7-a18c-4e47-a5cd-2cafab808247" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -571,12 +568,12 @@
       <workItem from="1502205050786" duration="2016000" />
       <workItem from="1502331775116" duration="1097000" />
       <workItem from="1502419440461" duration="628000" />
-      <workItem from="1502719908630" duration="5949000" />
+      <workItem from="1502719908630" duration="6139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24023000" />
+    <option name="totallyTimeSpent" value="24213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="734" extended-state="6" />
