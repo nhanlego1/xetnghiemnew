@@ -471,6 +471,12 @@ footer {
 #block-block-4 .content{
     color: #fff!important;
 }
+h2{
+    color: #ae2525;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
 
 @media only screen and (max-device-width: 756px) {
     #logo-container {
