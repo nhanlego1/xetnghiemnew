@@ -12,6 +12,7 @@
         <li class="manage"><a href="/admin/contents">Quản lý nội dung</a></li>
         <li class="manage"><a href="/admin/articles">Quản lý bài viết</a></li>
         <li class="manage"><a href="/admin/slideshow">Quản lý slideshow </a></li>
+      <li class="manage"><a href="/admin/price">Quản lý Bảng giá </a></li>
         <li class="manage"><a href="/admin/structure/menu/manage/main-menu">Quản lý Menu </a></li>
       <li class="manage"><a href="/admin/structure/block/manage/block/2/configure">Quản lý footer </a></li>
       <li class="manage"><a href="/admin/structure/block/manage/block/1/configure">Quản lý sidebar  </a></li>
