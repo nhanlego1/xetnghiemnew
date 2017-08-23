@@ -27,6 +27,7 @@
     <ul>
         <li class="add"><a href="/node/add/page?destination=admin/dashboard">Thêm nội dung</a></li>
         <li class="add"><a href="/node/add/article?destination=admin/dashboard">Thêm bài viết</a></li>
+      <li class="add"><a href="/node/add/price?destination=admin/dashboard">Thêm bảng giá </a></li>
         <li class="add"><a href="/node/add/slider?destination=admin/dashboard">Add Slideshow</a></li>
     </ul>
 </div>
