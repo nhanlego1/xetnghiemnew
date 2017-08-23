@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b53e3e7-a18c-4e47-a5cd-2cafab808247" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/admin-dashboard.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/admin-dashboard.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/healthpress/templates/node--price.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/healthpress/templates/node--price.tpl.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -81,13 +81,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node--price.tpl.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="node--price.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/templates/node--price.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="152" column="72" lean-forward="false" selection-start-line="152" selection-start-column="72" selection-end-line="152" selection-end-column="72" />
+            <state relative-caret-position="175">
+              <caret line="142" column="95" lean-forward="false" selection-start-line="142" selection-start-column="95" selection-end-line="142" selection-end-column="95" />
               <folding>
-                <marker date="1502898057000" expanded="true" signature="6928:6978" ph="..." />
+                <marker date="1503455860000" expanded="true" signature="6928:6978" ph="..." />
               </folding>
             </state>
           </provider>
@@ -103,7 +103,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin-dashboard.tpl.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin-dashboard.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/admin-dashboard.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="99">
@@ -170,8 +170,8 @@
         <option value="$PROJECT_DIR$/sites/all/modules/custom/healthpress/css/backend.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/style.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/healthpress/css/custom.css" />
-        <option value="$PROJECT_DIR$/sites/all/themes/healthpress/templates/node--price.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/admin-dashboard.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/healthpress/templates/node--price.tpl.php" />
       </list>
     </option>
   </component>
@@ -713,12 +713,12 @@
       <workItem from="1502419440461" duration="628000" />
       <workItem from="1502719908630" duration="6139000" />
       <workItem from="1502894745864" duration="3531000" />
-      <workItem from="1503450859116" duration="1236000" />
+      <workItem from="1503450859116" duration="1803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28980000" />
+    <option name="totallyTimeSpent" value="29547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="734" extended-state="6" />
@@ -758,6 +758,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1605">
           <caret line="107" column="20" lean-forward="false" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -830,6 +831,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1605">
           <caret line="107" column="20" lean-forward="false" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -916,6 +918,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1605">
           <caret line="107" column="20" lean-forward="false" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -967,6 +970,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1605">
           <caret line="107" column="20" lean-forward="false" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,6 +1035,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1605">
           <caret line="107" column="20" lean-forward="false" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,21 +1135,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/templates/node--price.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="152" column="72" lean-forward="false" selection-start-line="152" selection-start-column="72" selection-end-line="152" selection-end-column="72" />
-          <folding>
-            <marker date="1502898057000" expanded="true" signature="6928:6978" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/admin-dashboard.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/templates/node--price.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="142" column="95" lean-forward="false" selection-start-line="142" selection-start-column="95" selection-end-line="142" selection-end-column="95" />
+          <folding>
+            <marker date="1503455860000" expanded="true" signature="6928:6978" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

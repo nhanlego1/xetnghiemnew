@@ -137,8 +137,12 @@
                           <td><?php print $price->field_price2[LANGUAGE_NONE][$key]['value'] ?></td>
                           <td><?php print $price->field_price3[LANGUAGE_NONE][$key]['value'] ?></td>
                           <td><?php print $price->field_price4[LANGUAGE_NONE][$key]['value'] ?></td>
-                          <td><?php print $price->field_price5[LANGUAGE_NONE][$key]['value'] ?></td>
-                          <td><?php print $price->field_price6[LANGUAGE_NONE][$key]['value'] ?></td>
+                            <?php if (!empty($price->field_price5[LANGUAGE_NONE][$key]['value'])): ?>
+                              <td><?php print $price->field_price5[LANGUAGE_NONE][$key]['value'] ?></td>
+                            <?php endif; ?>
+                            <?php if (!empty($price->field_price6[LANGUAGE_NONE][$key]['value'])): ?>
+                              <td><?php print $price->field_price6[LANGUAGE_NONE][$key]['value'] ?></td>
+                            <?php endif; ?>
                         </tr>
                         <?php endif; ?>
                     <?php endforeach; ?>
@@ -149,10 +153,10 @@
           <?php endforeach; ?>
 
       <?php endif; ?>
-    <?php if(isset($node->field_content_bottom[LANGUAGE_NONE])): ?>
-        <?php print $node->field_content_bottom[LANGUAGE_NONE][0]['value'] ?>
+      <?php if (isset($node->field_content_bottom[LANGUAGE_NONE])): ?>
+          <?php print $node->field_content_bottom[LANGUAGE_NONE][0]['value'] ?>
 
-    <?php endif; ?>
+      <?php endif; ?>
   </div>
 
 <?php if (!empty($content['links'])): ?>
