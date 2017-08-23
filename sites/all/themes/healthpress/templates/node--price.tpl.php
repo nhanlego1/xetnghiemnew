@@ -126,8 +126,12 @@
                         <th><?php print $price->field_price2[LANGUAGE_NONE][$key]['value'] ?></th>
                         <th><?php print $price->field_price3[LANGUAGE_NONE][$key]['value'] ?></th>
                         <th><?php print $price->field_price4[LANGUAGE_NONE][$key]['value'] ?></th>
-                        <th><?php print $price->field_price5[LANGUAGE_NONE][$key]['value'] ?></th>
-                        <th><?php print $price->field_price6[LANGUAGE_NONE][$key]['value'] ?></th>
+                        <?php if (!empty($price->field_price5[LANGUAGE_NONE][$key]['value'])): ?>
+                          <th><?php print $price->field_price5[LANGUAGE_NONE][$key]['value'] ?></th>
+                        <?php endif; ?>
+                        <?php if (!empty($price->field_price6[LANGUAGE_NONE][$key]['value'])): ?>
+                          <th><?php print $price->field_price6[LANGUAGE_NONE][$key]['value'] ?></th>
+                        <?php endif; ?>
                         </thead>
                         <?php else: ?>
                         <tr class="<?php if ($total - 1 == $key): ?>price-bottom<?php else: ?> price-top <?php endif; ?>">
