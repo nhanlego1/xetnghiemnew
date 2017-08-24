@@ -455,6 +455,15 @@ footer {
     border-radius: 5px;
     padding: 10px;
 }
+.adn-price thead th {
+    border-bottom-color: #DDDDDD;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+
 .content h2{
     padding-bottom: 30px;
 }
