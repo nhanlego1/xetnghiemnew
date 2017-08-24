@@ -162,6 +162,9 @@
 
                 </table>
               <?php endif; ?>
+            <?php if(isset($price->field_notice[LANGUAGE_NONE])): ?>
+            <p><?php print $price->field_notice[LANGUAGE_NONE][0]['value'] ?></p>
+            <?php endif; ?>
           </div>
           <?php endforeach; ?>
 
