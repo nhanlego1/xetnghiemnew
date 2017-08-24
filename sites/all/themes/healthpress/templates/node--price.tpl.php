@@ -118,38 +118,47 @@
               <?php endif; ?>
               <?php if (isset($price->field_price1[LANGUAGE_NONE])): ?>
                 <table class="adn-price">
-                    <?php $total = count($price->field_price1[LANGUAGE_NONE]) ?>
-                    <?php foreach ($price->field_price1[LANGUAGE_NONE] as $key => $price1): ?>
-                        <?php if ($key == 0): ?>
-                        <thead>
-                        <th><?php print $price1['value'] ?></th>
-                        <th><?php print $price->field_price2[LANGUAGE_NONE][$key]['value'] ?></th>
-                        <th><?php print $price->field_price3[LANGUAGE_NONE][$key]['value'] ?></th>
-                        <th><?php print $price->field_price4[LANGUAGE_NONE][$key]['value'] ?></th>
-                        <?php if (!empty($price->field_price5[LANGUAGE_NONE][$key]['value'])): ?>
-                          <th><?php print $price->field_price5[LANGUAGE_NONE][$key]['value'] ?></th>
-                        <?php endif; ?>
-                        <?php if (!empty($price->field_price6[LANGUAGE_NONE][$key]['value'])): ?>
-                          <th><?php print $price->field_price6[LANGUAGE_NONE][$key]['value'] ?></th>
-                        <?php endif; ?>
-                        </thead>
-                        <?php else: ?>
-                        <tr class="<?php if ($total - 1 == $key): ?>price-bottom<?php else: ?> price-top <?php endif; ?>">
-                          <td>
-                            <strong><?php print $price1['value'] ?></strong>
-                          </td>
-                          <td><?php print $price->field_price2[LANGUAGE_NONE][$key]['value'] ?></td>
-                          <td><?php print $price->field_price3[LANGUAGE_NONE][$key]['value'] ?></td>
-                          <td><?php print $price->field_price4[LANGUAGE_NONE][$key]['value'] ?></td>
-                            <?php if (!empty($price->field_price5[LANGUAGE_NONE][$key]['value'])): ?>
-                              <td><?php print $price->field_price5[LANGUAGE_NONE][$key]['value'] ?></td>
+                    <?php if ($price->field_prices[LANGUAGE_NONE][0]['value'] > 0): ?>
+                        <?php foreach ($price->field_prices[LANGUAGE_NONE] as $key => $it): ?>
+                            <?php $items = entity_load('field_collection_item', array($it['value'])) ?>
+                            <?php $item = reset($items); ?>
+                            <?php if ($key == 0): ?>
+                          <thead>
+                          <th><?php print $item->field_price1[LANGUAGE_NONE][0]['value'] ?></th>
+                          <th><?php print $item->field_price2[LANGUAGE_NONE][0]['value'] ?></th>
+                          <th><?php print $item->field_price3[LANGUAGE_NONE][0]['value'] ?></th>
+                          <th><?php print $item->field_price4[LANGUAGE_NONE][0]['value'] ?></th>
+                          <?php if (!empty($item->field_price5[LANGUAGE_NONE][0]['value'])): ?>
+                            <th><?php print $item->field_price5[LANGUAGE_NONE][0]['value'] ?></th>
+                          <?php endif; ?>
+                          <?php if (!empty($item->field_price6[LANGUAGE_NONE][0]['value'])): ?>
+                            <th><?php print $item->field_price6[LANGUAGE_NONE][0]['value'] ?></th>
+                          <?php endif; ?>
+                          </thead>
+                            <?php else: ?>
+                                <?php $class = 'price-top'; ?>
+                                <?php if ($key % 2 == 0): ?>
+                                    <?php $class = 'price-bottom'; ?>
+                                <?php endif; ?>
+                          <tr class="<?php print $class ?>">
+                            <td>
+                              <strong><?php print $item->field_price1[LANGUAGE_NONE][0]['value'] ?></strong>
+                            </td>
+                            <td><?php print $item->field_price2[LANGUAGE_NONE][0]['value'] ?></td>
+                            <td><?php print $item->field_price3[LANGUAGE_NONE][0]['value'] ?></td>
+                            <td><?php print $item->field_price4[LANGUAGE_NONE][0]['value'] ?></td>
+                              <?php if (!empty($item->field_price5[LANGUAGE_NONE][0]['value'])): ?>
+                                <td><?php print $item->field_price5[LANGUAGE_NONE][0]['value'] ?></td>
+                              <?php endif; ?>
+                              <?php if (!empty($item->field_price6[LANGUAGE_NONE][0]['value'])): ?>
+                                <td><?php print $item->field_price6[LANGUAGE_NONE][0]['value'] ?></td>
+                              <?php endif; ?>
+                          </tr>
+
                             <?php endif; ?>
-                            <?php if (!empty($price->field_price6[LANGUAGE_NONE][$key]['value'])): ?>
-                              <td><?php print $price->field_price6[LANGUAGE_NONE][$key]['value'] ?></td>
-                            <?php endif; ?>
-                        </tr>
-                        <?php endif; ?>
-                    <?php endforeach; ?>
+                        <?php endforeach; ?>
+
+                    <?php endif; ?>
 
                 </table>
               <?php endif; ?>
