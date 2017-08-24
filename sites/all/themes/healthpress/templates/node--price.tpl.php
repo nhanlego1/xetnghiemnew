@@ -116,7 +116,7 @@
               <?php if (isset($price->field_description[LANGUAGE_NONE])): ?>
                 <p><?php print $price->field_description[LANGUAGE_NONE][0]['value'] ?></p>
               <?php endif; ?>
-              <?php if (isset($price->field_price1[LANGUAGE_NONE])): ?>
+              <?php if (isset($price->field_prices[LANGUAGE_NONE])): ?>
                 <table class="adn-price">
                     <?php if ($price->field_prices[LANGUAGE_NONE][0]['value'] > 0): ?>
                         <?php foreach ($price->field_prices[LANGUAGE_NONE] as $key => $it): ?>
