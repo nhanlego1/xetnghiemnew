@@ -3061,3 +3061,8 @@ body.adminimal-skin-alternative.adminimal-theme.page-admin-structure-features #e
 .field-group-multiple-container .multiple-element input{
   width: 100%;
 }
+#field-prices-values .field-type-text {
+  width: 18%;
+  float: left;
+  margin-left: 5px;
+}
