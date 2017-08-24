@@ -3061,11 +3061,11 @@ body.adminimal-skin-alternative.adminimal-theme.page-admin-structure-features #e
 .field-group-multiple-container .multiple-element input{
   width: 100%;
 }
-#field-prices-values .field-type-text {
+#field-prices-values .field-type-text, .ajax-new-content .field-type-text {
   width: 14%;
   float: left;
   margin-left: 5px;
 }
-#field-prices-values .field-type-text input{
+#field-prices-values .field-type-text input, .ajax-new-content .field-type-text input{
   width: 100%;
 }
