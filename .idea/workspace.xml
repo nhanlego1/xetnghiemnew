@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b53e3e7-a18c-4e47-a5cd-2cafab808247" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/healthpress/css/custom.css" afterPath="$PROJECT_DIR$/sites/all/themes/healthpress/css/custom.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7140">
-              <caret line="476" column="30" lean-forward="false" selection-start-line="476" selection-start-column="30" selection-end-line="476" selection-end-column="30" />
+            <state relative-caret-position="179">
+              <caret line="433" column="13" lean-forward="false" selection-start-line="433" selection-start-column="13" selection-end-line="433" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -71,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
+            <state relative-caret-position="552">
               <caret line="3068" column="66" lean-forward="false" selection-start-line="3068" selection-start-column="66" selection-end-line="3068" selection-end-column="66" />
               <folding />
             </state>
@@ -96,7 +96,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4575">
+            <state relative-caret-position="-10491">
               <caret line="305" column="61" lean-forward="false" selection-start-line="305" selection-start-column="61" selection-end-line="305" selection-end-column="61" />
               <folding />
             </state>
@@ -168,10 +168,10 @@
         <option value="$PROJECT_DIR$/sites/all/themes/healthpress/js/custom.js" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/healthpress/healthpress.module" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/healthpress/css/backend.css" />
-        <option value="$PROJECT_DIR$/sites/all/themes/healthpress/css/custom.css" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/healthpress/themes/admin-dashboard.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/healthpress/templates/node--price.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/style.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/healthpress/css/custom.css" />
       </list>
     </option>
   </component>
@@ -714,12 +714,12 @@
       <workItem from="1502719908630" duration="6139000" />
       <workItem from="1502894745864" duration="3531000" />
       <workItem from="1503450859116" duration="2134000" />
-      <workItem from="1503568410501" duration="1187000" />
+      <workItem from="1503568410501" duration="1805000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31065000" />
+    <option name="totallyTimeSpent" value="31683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="734" extended-state="6" />
@@ -759,6 +759,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1605">
           <caret line="107" column="20" lean-forward="false" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -831,6 +832,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1605">
           <caret line="107" column="20" lean-forward="false" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -917,6 +919,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1605">
           <caret line="107" column="20" lean-forward="false" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -968,6 +971,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1605">
           <caret line="107" column="20" lean-forward="false" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,6 +1036,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1605">
           <caret line="107" column="20" lean-forward="false" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,14 +1094,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4575">
-          <caret line="305" column="61" lean-forward="false" selection-start-line="305" selection-start-column="61" selection-end-line="305" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/healthpress/healthpress.module">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1725">
@@ -1111,14 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7140">
-          <caret line="476" column="30" lean-forward="false" selection-start-line="476" selection-start-column="30" selection-end-line="476" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1143,8 +1132,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
+        <state relative-caret-position="552">
           <caret line="3068" column="66" lean-forward="false" selection-start-line="3068" selection-start-column="66" selection-end-line="3068" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10491">
+          <caret line="305" column="61" lean-forward="false" selection-start-line="305" selection-start-column="61" selection-end-line="305" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="433" column="13" lean-forward="false" selection-start-line="433" selection-start-column="13" selection-end-line="433" selection-end-column="13" />
           <folding />
         </state>
       </provider>
