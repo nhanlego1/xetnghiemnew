@@ -114,7 +114,7 @@
                 <h3 class="price-title"><?php print $price->field_title[LANGUAGE_NONE][0]['value'] ?></h3>
               <?php endif; ?>
               <?php if (isset($price->field_description[LANGUAGE_NONE])): ?>
-                <p><?php print $price->field_description[LANGUAGE_NONE][0]['value'] ?></p>
+                <div class="description-price"><?php print $price->field_description[LANGUAGE_NONE][0]['value'] ?></div>
               <?php endif; ?>
               <?php if (isset($price->field_prices[LANGUAGE_NONE])): ?>
                 <table class="adn-price">
