@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b53e3e7-a18c-4e47-a5cd-2cafab808247" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/healthpress/templates/node--price.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/healthpress/templates/node--price.tpl.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,8 +84,8 @@
       <file leaf-file-name="node--price.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/templates/node--price.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="116" column="45" lean-forward="false" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
+            <state relative-caret-position="279">
+              <caret line="113" column="20" lean-forward="false" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -715,12 +714,12 @@
       <workItem from="1502894745864" duration="3531000" />
       <workItem from="1503450859116" duration="2134000" />
       <workItem from="1503568410501" duration="2689000" />
-      <workItem from="1503634209794" duration="30000" />
+      <workItem from="1503634209794" duration="106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32597000" />
+    <option name="totallyTimeSpent" value="32673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="734" extended-state="6" />
@@ -1142,8 +1141,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/healthpress/templates/node--price.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="116" column="45" lean-forward="false" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
+        <state relative-caret-position="279">
+          <caret line="113" column="20" lean-forward="false" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
           <folding />
         </state>
       </provider>
