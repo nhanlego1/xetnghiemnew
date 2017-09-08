@@ -57,6 +57,16 @@
     margin: 0;
     height: 43px;
     padding: 0.2em 0.5em 0 0.5em;
+
+}
+#wrapper #header .main-nav ul li ul li {
+    /*border-color:#54AEC2;*/
+    list-style: square;
+    padding: 0.2em 0.5em 0.5em 0.5em;
+
+}
+#wrapper #header .main-nav ul li ul li a{
+    font-size: 12px;
 }
 
 #wrapper #header .main-nav ul li:last-child {
