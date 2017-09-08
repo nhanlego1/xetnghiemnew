@@ -125,7 +125,9 @@
                             <?php if ($key == 0): ?>
                           <thead>
                           <th><?php print $item->field_price_info[LANGUAGE_NONE][0]['value'] ?></th>
+                          <?php if (!empty($item->field_price1[LANGUAGE_NONE][0]['value'])): ?>
                           <th><?php print $item->field_price1[LANGUAGE_NONE][0]['value'] ?></th>
+                        <?php endif; ?>
                           <th><?php print $item->field_price2[LANGUAGE_NONE][0]['value'] ?></th>
                           <th><?php print $item->field_price3[LANGUAGE_NONE][0]['value'] ?></th>
                           <?php if (!empty($item->field_price4[LANGUAGE_NONE][0]['value'])): ?>
@@ -147,8 +149,9 @@
                            <td>
                               <strong><?php print $item->field_price_info[LANGUAGE_NONE][0]['value'] ?></strong>
                             </td>
-                            <td>
-                              <?php print $item->field_price1[LANGUAGE_NONE][0]['value'] ?></td>
+                            <?php if (!empty($item->field_price1[LANGUAGE_NONE][0]['value'])): ?>
+                            <td><?php print $item->field_price1[LANGUAGE_NONE][0]['value'] ?></td>
+                          <?php endif ?>
                             <td><?php print $item->field_price2[LANGUAGE_NONE][0]['value'] ?></td>
                             <td><?php print $item->field_price3[LANGUAGE_NONE][0]['value'] ?></td>
                              <?php if (!empty($item->field_price4[LANGUAGE_NONE][0]['value'])): ?>
