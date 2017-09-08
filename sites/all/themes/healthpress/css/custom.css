@@ -63,7 +63,8 @@
     /*border-color:#54AEC2;*/
     padding: 0.2em 0.5em 1em 0.5em;
     border-bottom: 1px dotted #fff;n
-    border-right: none;
+    border-right: none!important;
+
 
 }
 #wrapper #header .main-nav ul li ul li:first-child{
