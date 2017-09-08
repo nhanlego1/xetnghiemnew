@@ -124,7 +124,9 @@
                             <?php $item = reset($items); ?>
                             <?php if ($key == 0): ?>
                           <thead>
+                          <?php if (!empty($item->field_price_info[LANGUAGE_NONE][0]['value'])): ?>
                           <th><?php print $item->field_price_info[LANGUAGE_NONE][0]['value'] ?></th>
+                        <?php endif; ?>
                           <?php if (!empty($item->field_price1[LANGUAGE_NONE][0]['value'])): ?>
                           <th><?php print $item->field_price1[LANGUAGE_NONE][0]['value'] ?></th>
                         <?php endif; ?>
@@ -146,9 +148,11 @@
                                     <?php $class = 'price-bottom'; ?>
                                 <?php endif; ?>
                           <tr class="<?php print $class ?>">
+                          <?php if (!empty($item->field_price_info[LANGUAGE_NONE][0]['value'])): ?>
                            <td>
                               <strong><?php print $item->field_price_info[LANGUAGE_NONE][0]['value'] ?></strong>
                             </td>
+                          <?php endif; ?>
                             <?php if (!empty($item->field_price1[LANGUAGE_NONE][0]['value'])): ?>
                             <td><?php print $item->field_price1[LANGUAGE_NONE][0]['value'] ?></td>
                           <?php endif ?>
