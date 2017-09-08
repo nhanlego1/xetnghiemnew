@@ -502,13 +502,16 @@ h3.price-title{
     text-transform: uppercase;
 }
 ul.service-info li{
-        width: 25%;
+        width: 27%;
     float: left;
     text-align: center;
     background: #FFFFCC;
     padding: 10px;
     border: 1px solid #B6B6B6;
-    margin-left:10px;
+    margin-left:16px;
+}
+ul.service-info{
+    padding-bottom: 30px;
 }
 
 
