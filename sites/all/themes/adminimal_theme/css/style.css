@@ -3065,7 +3065,9 @@ body.adminimal-skin-alternative.adminimal-theme.page-admin-structure-features #e
   width: 14%;
   float: left;
   margin-left: 5px;
+  margin-right: 20px;
 }
 #field-prices-values .field-type-text input, .field-multiple-table .field-type-text input{
-  width: 100%;
+  width: 93%;
+  height: 50px;
 }
