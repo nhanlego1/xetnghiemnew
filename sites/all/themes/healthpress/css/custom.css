@@ -61,9 +61,15 @@
 }
 #wrapper #header .main-nav ul li ul li {
     /*border-color:#54AEC2;*/
-    list-style: square;
-    padding: 0.2em 0.5em 0.5em 0.5em;
+    padding: 0.2em 0.5em 1em 0.5em;
+    border-bottom: 1px dotted #fff;
+    border-right: none;
 
+}
+#wrapper #header .main-nav ul li ul li:first-child{
+     padding: 0.2em 0.5em 1em 0.5em;
+    border-bottom: 1px dotted #fff!important;
+    border-right: none;
 }
 #wrapper #header .main-nav ul li ul li a{
     font-size: 12px;
